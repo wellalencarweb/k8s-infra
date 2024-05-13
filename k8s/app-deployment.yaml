@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: deiro1/app-fast-food:latest
+          image: wellalencar/tech-challenge-fiap-02_fast-food
           command: ["sh", "-c", "npm run generate && npm run migrate && npm run start"]
           ports:
             - containerPort: 6001
